@@ -1,0 +1,388 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\be14d1fb0eca67da7360713222518d89\transformed\jetified-viewbinding-8.13.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1f7363125abf2a1c297886335aee5577\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\2fae5c2abc2cc88b7327c228c505d10a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\7f6b554f33ee2ea749186a47bb47d407\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\2d0a36c5c2dcc1188c939036df4a55d8\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\daeb9194a89b2d6469124c3c9d01f527\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\bbb5f5872bc4f59ef998f204b2f6e0bf\transformed\fragment-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\b23de4d0f4b0c100d011d04213badf66\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\3f927bbc50cda0920b57faf756642ca9\transformed\jetified-activity-1.8.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\85ec11d360568b48b881a49903dbf04a\transformed\jetified-activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1e32cca4be5eb4b51172ca0a9f5b3d6b\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\46f850326a752bf801970960bccc3819\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a2b90656db6f6ac583cf870d9e0afb0a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\0592ed6f5cef672631c865c197dd033f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\6ffbdb039c9fda90cff05dabd71246b4\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\0e8dba4665e641858c586f3ed82f5fd9\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1d4c29346811a6caca836c03609b1f60\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\4ab721f9ea456d86d0f8172aef7e8e4d\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\8e7288d3eef34e53743f365846712e59\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\8b41f156ede65b2394f361b530b44657\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a0b40d1b0959331e52bb676a1008719f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\b8c1353511196848bd16151b391325b5\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\50b063e77b4f9b248cb75ea312efcf5b\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\9773048d187d6e60aac338ade629f74e\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1836354f73197fbbd95f733d0d85cb72\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\859aaf710c461e7eb8ff63c0216c6a56\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\b2d7caa75b0bb1614e09f13ba54f6d75\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\0540b2182fbd47a9735942f35e00786b\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\461a1ad11e0d5809c4e670a0914f0d17\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a536e637db667642661a387db8bdeb04\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\8a9ae97bc10b918284993abbc91a3995\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\b0387e4263b0d79b0b5144d23dd6a638\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\07d5cfad52e8404bb55e64d52fae52e9\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\3f57b5e2c4aa3495e8eb25103e35980e\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a7614ea1e2a045e48ec18e67ec6f751b\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\efd8f0cf8274ac7ca76b69932dd29274\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\030e4d289c2ba4ed581c811b7f676828\transformed\sqlite-2.4.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\69bb8ca032da7186a2938cf889aedc3f\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\0ecad039692513ab010989bf939cb0c3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a278902878fa9146d11ffb44ee99e6e1\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\3d2ce0ee4855ec036b23e4338b7aa8e9\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\dc32bbe3e6228bcaef4d876cd3a96be4\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a7cef728e8838c3a0af1d2a9a434f194\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\85208a0aac92014d3e7e664f3ff9284a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\918d12d32ec1dfd5f05d18ad688a6ed5\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\24c02e6419a5a3346aa346de26c60b14\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\5f3d7d3a582d76d39f73b3b2aeebb12f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\08a22278c7bd103659d1c1f3e47b60f8\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:5:5-108
+	android:maxSdkVersion
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:5:79-105
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:6:5-107
+	android:maxSdkVersion
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:6:78-104
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:6:22-77
+application
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:8:5-39:19
+INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:8:5-39:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1f7363125abf2a1c297886335aee5577\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1f7363125abf2a1c297886335aee5577\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\2fae5c2abc2cc88b7327c228c505d10a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\2fae5c2abc2cc88b7327c228c505d10a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a7cef728e8838c3a0af1d2a9a434f194\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a7cef728e8838c3a0af1d2a9a434f194\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\85208a0aac92014d3e7e664f3ff9284a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\85208a0aac92014d3e7e664f3ff9284a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:14:9-41
+	android:fullBackupContent
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:12:9-54
+	android:roundIcon
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:15:9-54
+	tools:targetApi
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:18:9-29
+	android:icon
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:17:9-56
+	android:dataExtractionRules
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:11:9-65
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:9:9-28
+activity#com.antigravity.businessapp.ui.LoginActivity
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:20:9-27:20
+	android:exported
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:22:13-36
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:21:13-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:23:13-26:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:25:27-74
+activity#com.antigravity.businessapp.ui.MainActivity
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:29:9-53
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:29:19-50
+activity#com.antigravity.businessapp.ui.PartyListActivity
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:31:9-58
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:31:19-55
+activity#com.antigravity.businessapp.ui.PartyFormActivity
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:32:9-58
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:32:19-55
+activity#com.antigravity.businessapp.ui.PartyDetailActivity
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:33:9-60
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:33:19-57
+activity#com.antigravity.businessapp.ui.StockListActivity
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:34:9-58
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:34:19-55
+activity#com.antigravity.businessapp.ui.StockFormActivity
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:35:9-58
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:35:19-55
+activity#com.antigravity.businessapp.ui.TransactionEntryActivity
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:36:9-65
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:36:19-62
+activity#com.antigravity.businessapp.ui.SettingsActivity
+ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:37:9-57
+	android:name
+		ADDED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:37:19-54
+uses-sdk
+INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\be14d1fb0eca67da7360713222518d89\transformed\jetified-viewbinding-8.13.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.13.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\be14d1fb0eca67da7360713222518d89\transformed\jetified-viewbinding-8.13.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1f7363125abf2a1c297886335aee5577\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1f7363125abf2a1c297886335aee5577\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\2fae5c2abc2cc88b7327c228c505d10a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\2fae5c2abc2cc88b7327c228c505d10a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\7f6b554f33ee2ea749186a47bb47d407\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\7f6b554f33ee2ea749186a47bb47d407\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\2d0a36c5c2dcc1188c939036df4a55d8\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\2d0a36c5c2dcc1188c939036df4a55d8\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\daeb9194a89b2d6469124c3c9d01f527\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\daeb9194a89b2d6469124c3c9d01f527\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\bbb5f5872bc4f59ef998f204b2f6e0bf\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\bbb5f5872bc4f59ef998f204b2f6e0bf\transformed\fragment-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\b23de4d0f4b0c100d011d04213badf66\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\b23de4d0f4b0c100d011d04213badf66\transformed\jetified-fragment-ktx-1.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\3f927bbc50cda0920b57faf756642ca9\transformed\jetified-activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\3f927bbc50cda0920b57faf756642ca9\transformed\jetified-activity-1.8.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\85ec11d360568b48b881a49903dbf04a\transformed\jetified-activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\85ec11d360568b48b881a49903dbf04a\transformed\jetified-activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1e32cca4be5eb4b51172ca0a9f5b3d6b\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1e32cca4be5eb4b51172ca0a9f5b3d6b\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\46f850326a752bf801970960bccc3819\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\46f850326a752bf801970960bccc3819\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a2b90656db6f6ac583cf870d9e0afb0a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a2b90656db6f6ac583cf870d9e0afb0a\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\0592ed6f5cef672631c865c197dd033f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\0592ed6f5cef672631c865c197dd033f\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\6ffbdb039c9fda90cff05dabd71246b4\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\6ffbdb039c9fda90cff05dabd71246b4\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\0e8dba4665e641858c586f3ed82f5fd9\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\0e8dba4665e641858c586f3ed82f5fd9\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1d4c29346811a6caca836c03609b1f60\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1d4c29346811a6caca836c03609b1f60\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\4ab721f9ea456d86d0f8172aef7e8e4d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\4ab721f9ea456d86d0f8172aef7e8e4d\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\8e7288d3eef34e53743f365846712e59\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\8e7288d3eef34e53743f365846712e59\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\8b41f156ede65b2394f361b530b44657\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\8b41f156ede65b2394f361b530b44657\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a0b40d1b0959331e52bb676a1008719f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a0b40d1b0959331e52bb676a1008719f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\b8c1353511196848bd16151b391325b5\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\b8c1353511196848bd16151b391325b5\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\50b063e77b4f9b248cb75ea312efcf5b\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\50b063e77b4f9b248cb75ea312efcf5b\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\9773048d187d6e60aac338ade629f74e\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\9773048d187d6e60aac338ade629f74e\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1836354f73197fbbd95f733d0d85cb72\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\1836354f73197fbbd95f733d0d85cb72\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\859aaf710c461e7eb8ff63c0216c6a56\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\859aaf710c461e7eb8ff63c0216c6a56\transformed\jetified-lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\b2d7caa75b0bb1614e09f13ba54f6d75\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\b2d7caa75b0bb1614e09f13ba54f6d75\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\0540b2182fbd47a9735942f35e00786b\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\0540b2182fbd47a9735942f35e00786b\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\461a1ad11e0d5809c4e670a0914f0d17\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\461a1ad11e0d5809c4e670a0914f0d17\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a536e637db667642661a387db8bdeb04\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a536e637db667642661a387db8bdeb04\transformed\jetified-lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\8a9ae97bc10b918284993abbc91a3995\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\8a9ae97bc10b918284993abbc91a3995\transformed\jetified-lifecycle-livedata-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\b0387e4263b0d79b0b5144d23dd6a638\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\b0387e4263b0d79b0b5144d23dd6a638\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\07d5cfad52e8404bb55e64d52fae52e9\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\07d5cfad52e8404bb55e64d52fae52e9\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\3f57b5e2c4aa3495e8eb25103e35980e\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\3f57b5e2c4aa3495e8eb25103e35980e\transformed\jetified-core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a7614ea1e2a045e48ec18e67ec6f751b\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a7614ea1e2a045e48ec18e67ec6f751b\transformed\jetified-room-ktx-2.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\efd8f0cf8274ac7ca76b69932dd29274\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\efd8f0cf8274ac7ca76b69932dd29274\transformed\sqlite-framework-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\030e4d289c2ba4ed581c811b7f676828\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\030e4d289c2ba4ed581c811b7f676828\transformed\sqlite-2.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\69bb8ca032da7186a2938cf889aedc3f\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\69bb8ca032da7186a2938cf889aedc3f\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\0ecad039692513ab010989bf939cb0c3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\0ecad039692513ab010989bf939cb0c3\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a278902878fa9146d11ffb44ee99e6e1\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a278902878fa9146d11ffb44ee99e6e1\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\3d2ce0ee4855ec036b23e4338b7aa8e9\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\3d2ce0ee4855ec036b23e4338b7aa8e9\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\dc32bbe3e6228bcaef4d876cd3a96be4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\dc32bbe3e6228bcaef4d876cd3a96be4\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a7cef728e8838c3a0af1d2a9a434f194\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a7cef728e8838c3a0af1d2a9a434f194\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\85208a0aac92014d3e7e664f3ff9284a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\85208a0aac92014d3e7e664f3ff9284a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\918d12d32ec1dfd5f05d18ad688a6ed5\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\918d12d32ec1dfd5f05d18ad688a6ed5\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\24c02e6419a5a3346aa346de26c60b14\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\24c02e6419a5a3346aa346de26c60b14\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\5f3d7d3a582d76d39f73b3b2aeebb12f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\5f3d7d3a582d76d39f73b3b2aeebb12f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\08a22278c7bd103659d1c1f3e47b60f8\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\08a22278c7bd103659d1c1f3e47b60f8\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\85208a0aac92014d3e7e664f3ff9284a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\85208a0aac92014d3e7e664f3ff9284a\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.antigravity.businessapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.antigravity.businessapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

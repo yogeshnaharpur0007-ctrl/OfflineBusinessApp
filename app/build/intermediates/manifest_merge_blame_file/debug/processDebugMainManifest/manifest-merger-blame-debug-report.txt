@@ -1,0 +1,178 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.antigravity.businessapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission
+11-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:5:5-108
+12        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+12-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:5:22-78
+13        android:maxSdkVersion="28" />
+13-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:5:79-105
+14    <uses-permission
+14-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:6:5-107
+15        android:name="android.permission.READ_EXTERNAL_STORAGE"
+15-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:6:22-77
+16        android:maxSdkVersion="32" />
+16-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:6:78-104
+17
+18    <permission
+18-->[androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+19        android:name="com.antigravity.businessapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.antigravity.businessapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:8:5-39:19
+25        android:name="com.antigravity.businessapp.App"
+25-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:9:9-28
+26        android:allowBackup="true"
+26-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:10:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.12.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\c8d3db2dbaeff2ef8bf2cfa7af6eadb9\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:11:9-65
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:12:9-54
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:13:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:14:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:15:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:16:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.OfflineBusinessApp" >
+37-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:17:9-56
+38        <activity
+38-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:20:9-27:20
+39            android:name="com.antigravity.businessapp.ui.LoginActivity"
+39-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:21:13-45
+40            android:exported="true" >
+40-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:22:13-36
+41            <intent-filter>
+41-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:23:13-26:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:24:17-69
+42-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:24:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:25:17-77
+44-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:25:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="com.antigravity.businessapp.ui.MainActivity" />
+47-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:29:9-53
+47-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:29:19-50
+48        <activity android:name="com.antigravity.businessapp.ui.PartyListActivity" />
+48-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:31:9-58
+48-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:31:19-55
+49        <activity android:name="com.antigravity.businessapp.ui.PartyFormActivity" />
+49-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:32:9-58
+49-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:32:19-55
+50        <activity android:name="com.antigravity.businessapp.ui.PartyDetailActivity" />
+50-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:33:9-60
+50-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:33:19-57
+51        <activity android:name="com.antigravity.businessapp.ui.StockListActivity" />
+51-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:34:9-58
+51-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:34:19-55
+52        <activity android:name="com.antigravity.businessapp.ui.StockFormActivity" />
+52-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:35:9-58
+52-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:35:19-55
+53        <activity android:name="com.antigravity.businessapp.ui.TransactionEntryActivity" />
+53-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:36:9-65
+53-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:36:19-62
+54        <activity android:name="com.antigravity.businessapp.ui.SettingsActivity" />
+54-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:37:9-57
+54-->C:\Users\yoges\OneDrive\Desktop\ANTIGRAVITY PROJECT\OfflineBusinessApp\app\src\main\AndroidManifest.xml:37:19-54
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.antigravity.businessapp.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\443a78e044d5e026bcdce6ecf310d6fc\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\f1b3cc6c5cacc305405e6518e2a0777a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <service
+71-->[androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+72            android:name="androidx.room.MultiInstanceInvalidationService"
+72-->[androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+73            android:directBootAware="true"
+73-->[androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+74            android:exported="false" />
+74-->[androidx.room:room-runtime:2.6.1] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\d109fa4a6c2984ade21ad14dd2907ae1\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+75
+76        <receiver
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+77            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+78            android:directBootAware="false"
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+79            android:enabled="true"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+80            android:exported="true"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+81            android:permission="android.permission.DUMP" >
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+83                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+86                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+89                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+92                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\yoges\.gradle\caches\9.0-milestone-1\transforms\a95fdbc525f29ef1d62303aba2619113\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+93            </intent-filter>
+94        </receiver>
+95    </application>
+96
+97</manifest>
