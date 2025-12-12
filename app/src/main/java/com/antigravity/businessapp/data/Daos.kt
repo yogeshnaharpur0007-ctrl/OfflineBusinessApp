@@ -1,8 +1,13 @@
 package com.antigravity.businessapp.data
 
 import androidx.lifecycle.LiveData
-import androix.room.Transaction
-import androidx.room.*
+import androidx.room.Dao
+import androidx.room.Delete
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+import androidx.room.Update
+import androidx.room.Transaction as RoomTransaction
 
 // ================== PARTY DAO ==================
 @Dao
@@ -25,6 +30,10 @@ interface PartyDao {
 
     @Query("DELETE FROM parties")
     suspend fun deleteAll()
+
+    // Single party delete (Repositories.kt ke deleteParty call ke liye)
+    @Delete
+    suspend fun deleteParty(party: Party)
 }
 
 // ================== ITEM DAO ==================
@@ -72,8 +81,7 @@ interface TransactionDao {
     @Query("SELECT * FROM transactions ORDER BY timestamp DESC")
     fun getAllTransactions(): LiveData<List<Transaction>>
     
-    // For Reporting/Backup
-    // Yahan SUM(totalAmount) use kiya hai taki Room easily Double? return kar sake
+    // For Reporting/Backup – totalAmount ka SUM
     @Query(
         "SELECT SUM(totalAmount) FROM transactions " +
         "WHERE type = 'SALE' AND timestamp >= :startTime AND timestamp <= :endTime"
@@ -98,7 +106,9 @@ interface TransactionDao {
     @Query("DELETE FROM transaction_items")
     suspend fun deleteAllItems()
 
-    @Transaction
+    // Ledger ke liye; annotation ko alias (RoomTransaction) se use kiya hai
+    @RoomTransaction
     @Query("SELECT * FROM transactions WHERE partyId = :partyId")
     suspend fun getPartyLedger(partyId: Long): List<Transaction>
 }
+
