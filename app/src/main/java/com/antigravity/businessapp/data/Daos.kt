@@ -1,6 +1,7 @@
 package com.antigravity.businessapp.data
 
 import androidx.lifecycle.LiveData
+import androix.room.Transaction
 import androidx.room.*
 
 // ================== PARTY DAO ==================
