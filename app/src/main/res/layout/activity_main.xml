@@ -111,7 +111,7 @@
             android:layout_height="60dp"
             android:layout_marginTop="16dp"
             android:text="@string/stock"
-            app:icon="@android:drawable/ic_menu_box"
+            app:icon=android:src="@android:drawable/ic_menu_gallery"
             app:layout_constraintTop_toBottomOf="@id/btn_parties" />
 
         <Button
