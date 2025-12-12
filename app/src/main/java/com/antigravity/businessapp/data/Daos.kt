@@ -3,8 +3,10 @@ package com.antigravity.businessapp.data
 import androidx.lifecycle.LiveData
 import androidx.room.*
 
+// ================== PARTY DAO ==================
 @Dao
 interface PartyDao {
+
     @Query("SELECT * FROM parties ORDER BY name ASC")
     fun getAllParties(): LiveData<List<Party>>
 
@@ -24,8 +26,10 @@ interface PartyDao {
     suspend fun deleteAll()
 }
 
+// ================== ITEM DAO ==================
 @Dao
 interface ItemDao {
+
     @Query("SELECT * FROM items ORDER BY name ASC")
     fun getAllItems(): LiveData<List<Item>>
 
@@ -51,8 +55,10 @@ interface ItemDao {
     suspend fun updateStock(itemId: Long, change: Int)
 }
 
+// ================== TRANSACTION DAO ==================
 @Dao
 interface TransactionDao {
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertTransaction(transaction: Transaction): Long
 
@@ -66,10 +72,17 @@ interface TransactionDao {
     fun getAllTransactions(): LiveData<List<Transaction>>
     
     // For Reporting/Backup
-    @Query("SELECT * FROM transactions WHERE type = 'SALE' AND timestamp >= :startTime AND timestamp <= :endTime")
+    // Yahan SUM(totalAmount) use kiya hai taki Room easily Double? return kar sake
+    @Query(
+        "SELECT SUM(totalAmount) FROM transactions " +
+        "WHERE type = 'SALE' AND timestamp >= :startTime AND timestamp <= :endTime"
+    )
     fun getSalesTotal(startTime: Long, endTime: Long): LiveData<Double?>
 
-    @Query("SELECT * FROM transactions WHERE type = 'PURCHASE' AND timestamp >= :startTime AND timestamp <= :endTime")
+    @Query(
+        "SELECT SUM(totalAmount) FROM transactions " +
+        "WHERE type = 'PURCHASE' AND timestamp >= :startTime AND timestamp <= :endTime"
+    )
     fun getPurchasesTotal(startTime: Long, endTime: Long): LiveData<Double?>
 
     @Query("SELECT * FROM transactions")
@@ -83,6 +96,7 @@ interface TransactionDao {
     
     @Query("DELETE FROM transaction_items")
     suspend fun deleteAllItems()
+
     @Transaction
     @Query("SELECT * FROM transactions WHERE partyId = :partyId")
     suspend fun getPartyLedger(partyId: Long): List<Transaction>
