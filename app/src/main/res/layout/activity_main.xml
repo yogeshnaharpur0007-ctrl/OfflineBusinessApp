@@ -98,49 +98,59 @@
         <!-- Navigation Buttons -->
         <Button
             android:id="@+id/btn_parties"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="60dp"
             android:layout_marginTop="24dp"
             android:text="@string/parties"
-            app:icon="@android:drawable/ic_menu_myplaces"
+            android:drawableLeft="@android:drawable/ic_menu_myplaces"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/card_sales" />
 
         <Button
             android:id="@+id/btn_stock"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="60dp"
             android:layout_marginTop="16dp"
             android:text="@string/stock"
-            app:icon=android:src="@android:drawable/ic_menu_gallery"
+            android:drawableLeft="@android:drawable/ic_menu_gallery"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btn_parties" />
 
         <Button
             android:id="@+id/btn_new_sale"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="60dp"
             android:layout_marginTop="16dp"
             android:backgroundTint="@color/green"
             android:text="New Sale"
-            app:icon="@android:drawable/ic_input_add"
+            android:drawableLeft="@android:drawable/ic_input_add"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btn_stock" />
-            
+
         <Button
             android:id="@+id/btn_new_purchase"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="60dp"
             android:layout_marginTop="16dp"
             android:backgroundTint="@color/red"
             android:text="New Purchase"
-            app:icon="@android:drawable/ic_input_add"
+            android:drawableLeft="@android:drawable/ic_input_add"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btn_new_sale" />
 
         <Button
             android:id="@+id/btn_settings"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="60dp"
             android:layout_marginTop="16dp"
             android:text="@string/settings"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btn_new_purchase" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
