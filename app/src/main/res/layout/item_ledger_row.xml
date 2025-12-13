@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/cell_border"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_row_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="01/01/2023"
+        android:textSize="12sp"/>
+    
+    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#BDBDBD"/>
+
+    <TextView
+        android:id="@+id/tv_row_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SALE"
+        android:textSize="12sp"
+        android:paddingStart="4dp"/>
+        
+    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#BDBDBD"/>
+
+    <TextView
+        android:id="@+id/tv_row_total"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1000"
+        android:gravity="end"
+        android:textSize="12sp"/>
+        
+    <View android:layout_width="1dp" android:layout_height="match_parent" android:background="#BDBDBD"/>
+
+    <TextView
+        android:id="@+id/tv_row_paid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="500"
+        android:gravity="end"
+        android:textSize="12sp"/>
+
+</LinearLayout>
