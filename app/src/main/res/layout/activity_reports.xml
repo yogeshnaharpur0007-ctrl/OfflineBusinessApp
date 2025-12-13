@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:text="Reports"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_report_sales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Sales Report"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_report_stock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock Summary Report"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Placeholder for Date Range Picker logic which is usually needed for Reports, keeping simplified for now -->
+    
+    <TextView
+        android:id="@+id/tv_report_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select a report to generate PDF functionality..."
+        android:gravity="center"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>
