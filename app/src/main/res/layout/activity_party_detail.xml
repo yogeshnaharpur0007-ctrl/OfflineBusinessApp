@@ -28,16 +28,58 @@
             android:textColor="@color/white"
             android:textSize="18sp"
             android:layout_marginTop="8dp"/>
-
-        <Button
-            android:id="@+id/btn_edit_party"
-            android:layout_width="wrap_content"
+            
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Edit Details"
-            android:layout_marginTop="8dp"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:textColor="@color/white"/>
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
 
+            <Button
+                android:id="@+id/btn_edit_party"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Details"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:textColor="@color/white"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+                
+            <Button
+                android:id="@+id/btn_export_pdf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PDF"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="@color/white"
+                app:strokeColor="@color/white"
+                android:layout_marginEnd="8dp"
+                xmlns:app="http://schemas.android.com/apk/res-auto"/>
+                
+            <ImageButton
+                android:id="@+id/btn_archive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_delete"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="12dp"
+                app:tint="@color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0E0E0"
+        android:padding="8dp">
+        <TextView android:layout_width="0dp" android:layout_weight="1.5" android:text="Date" android:textStyle="bold"/>
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:text="Type" android:textStyle="bold"/>
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:text="Total" android:textStyle="bold" android:gravity="end"/>
+        <TextView android:layout_width="0dp" android:layout_weight="1" android:text="Paid" android:textStyle="bold" android:gravity="end"/>
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -47,3 +89,4 @@
         android:layout_weight="1"/>
 
 </LinearLayout>
+
