@@ -50,7 +50,6 @@ interface PartyDao {
     @Update
     suspend fun updateParty(party: Party)
 
-    // Archive instead of delete if desired, but keeping delete for full cleanup
     @Delete
     suspend fun deleteParty(party: Party)
 
@@ -71,7 +70,7 @@ interface ItemDao {
 
     @Query("SELECT * FROM items WHERE stockQuantity <= lowStockLimit")
     fun getLowStockItems(): LiveData<List<Item>>
-    
+
     @Query("SELECT * FROM items WHERE id = :id")
     suspend fun getItemById(id: Long): Item?
 
@@ -93,6 +92,7 @@ interface ItemDao {
 
 @Dao
 interface TransactionDao {
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertTransaction(transaction: Transaction): Long
 
@@ -110,12 +110,23 @@ interface TransactionDao {
 
     @Query("SELECT * FROM transactions ORDER BY timestamp DESC")
     fun getAllTransactions(): LiveData<List<Transaction>>
-    
-    // For Reporting/Backup
-    @Query("SELECT SUM(totalAmount) FROM transactions WHERE type = 'SALE' AND timestamp >= :startTime AND timestamp <= :endTime")
+
+    @Query("""
+        SELECT SUM(totalAmount) 
+        FROM transactions 
+        WHERE type = 'SALE' 
+        AND timestamp >= :startTime 
+        AND timestamp <= :endTime
+    """)
     fun getSalesTotal(startTime: Long, endTime: Long): LiveData<Double?>
 
-    @Query("SELECT SUM(totalAmount) FROM transactions WHERE type = 'PURCHASE' AND timestamp >= :startTime AND timestamp <= :endTime")
+    @Query("""
+        SELECT SUM(totalAmount) 
+        FROM transactions 
+        WHERE type = 'PURCHASE' 
+        AND timestamp >= :startTime 
+        AND timestamp <= :endTime
+    """)
     fun getPurchasesTotal(startTime: Long, endTime: Long): LiveData<Double?>
 
     @Query("SELECT * FROM transactions")
@@ -126,12 +137,11 @@ interface TransactionDao {
 
     @Query("DELETE FROM transactions")
     suspend fun deleteAll()
-    
+
     @Query("DELETE FROM transaction_items")
     suspend fun deleteAllItems()
-    @Transaction
-    @Query("SELECT * FROM transactions WHERE partyId = :partyId")
+
+    // ✅ FIXED: Removed @Transaction annotation
+    @Query("SELECT * FROM transactions WHERE partyId = :partyId ORDER BY timestamp DESC")
     suspend fun getPartyLedger(partyId: Long): List<Transaction>
 }
-
-
