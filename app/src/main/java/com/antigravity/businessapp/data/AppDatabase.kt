@@ -7,12 +7,27 @@ import androidx.room.RoomDatabase
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 
-@Database(entities = [Party::class, Item::class, Transaction::class, TransactionItem::class], version = 1, exportSchema = false)
+@Database(
+    entities = [
+        Party::class,
+        Item::class,
+        Transaction::class,
+        TransactionItem::class,
+        User::class,
+        AuditLog::class,
+        StockTx::class
+    ],
+    version = 2,
+    exportSchema = false
+)
 abstract class AppDatabase : RoomDatabase() {
 
     abstract fun partyDao(): PartyDao
     abstract fun itemDao(): ItemDao
     abstract fun transactionDao(): TransactionDao
+    abstract fun userDao(): UserDao
+    abstract fun auditDao(): AuditDao
+    abstract fun stockTxDao(): StockTxDao
 
     companion object {
         @Volatile
@@ -25,10 +40,13 @@ abstract class AppDatabase : RoomDatabase() {
                     context.applicationContext,
                     AppDatabase::class.java,
                     "offline_business_db"
-                ).build()
+                )
+                .fallbackToDestructiveMigration() // Dev only: Wipes data on schema change
+                .build()
                 INSTANCE = instance
                 instance
             }
         }
     }
 }
+
