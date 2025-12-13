@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/cell_border"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/tv_tx_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="SALE"
+        android:textSize="12sp"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#BDBDBD"/>
+
+    <TextView
+        android:id="@+id/tv_tx_amount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="₹ 100"
+        android:gravity="end"
+        android:textSize="12sp"/>
+        
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#BDBDBD"/>
+
+    <TextView
+        android:id="@+id/tv_tx_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="12/12"
+        android:gravity="end"
+        android:textSize="12sp"/>
+
+</LinearLayout>
