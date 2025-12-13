@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -44,5 +45,14 @@
         android:textColor="@color/red"
         android:visibility="invisible"
         android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot PIN? / OTP Login"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="24dp"
+        android:padding="8dp"/>
 
 </LinearLayout>
