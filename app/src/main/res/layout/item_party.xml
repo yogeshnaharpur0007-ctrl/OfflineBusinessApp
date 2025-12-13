@@ -1,38 +1,50 @@
+
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
-    android:elevation="4dp">
+    android:orientation="horizontal"
+    android:background="@drawable/cell_border"
+    android:baselineAligned="false">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/tv_party_name"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:layout_weight="2"
+        android:text="Name"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:background="#FAFAFA"/> <!-- Subtle alternating support via Adapter logic usually, but keep simple for now -->
+    
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#BDBDBD"/>
 
-        <TextView
-            android:id="@+id/tv_party_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Party Name"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv_party_contact"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="Contact"
+        android:textSize="14sp"
+        android:padding="8dp"/>
+        
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#BDBDBD"/>
 
-        <TextView
-            android:id="@+id/tv_party_contact"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Contact Info"
-            android:textSize="14sp" />
-            
-        <TextView
-            android:id="@+id/tv_party_type"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="CUSTOMER"
-            android:textSize="12sp"
-            android:textColor="@android:color/darker_gray"/>
-            
-    </LinearLayout>
-</androidx.cardview.widget.CardView>
+    <TextView
+        android:id="@+id/tv_party_type"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Type"
+        android:textSize="12sp"
+        android:padding="8dp"
+        android:gravity="center"/>
+
+</LinearLayout>
