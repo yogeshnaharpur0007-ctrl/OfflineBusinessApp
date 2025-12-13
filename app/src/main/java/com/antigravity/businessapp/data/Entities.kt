@@ -5,12 +5,30 @@ import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
 
+@Entity(tableName = "users")
+data class User(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val username: String,
+    val passwordHash: String, // Store salted hash
+    val pin: String? = null // Encrypted or simple storage depending on requirement
+)
+
+@Entity(tableName = "audit_logs")
+data class AuditLog(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val action: String, // "DELETE_PARTY", "EDIT_MAX_STOCK", etc.
+    val details: String,
+    val timestamp: Long = System.currentTimeMillis()
+)
+
 @Entity(tableName = "parties")
 data class Party(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,
     val name: String,
     val contact: String,
     val type: String, // "CUSTOMER" or "SUPPLIER"
+    val openingBalance: Double = 0.0,
+    val isArchived: Boolean = false,
     val createdAt: Long = System.currentTimeMillis()
 )
 
@@ -18,9 +36,11 @@ data class Party(
 data class Item(
     @PrimaryKey(autoGenerate = true) val id: Long = 0,
     val name: String,
+    val unit: String = "pcs",
     val sellingRate: Double,
     val purchaseRate: Double,
-    val stockQuantity: Int,
+    val openingStock: Int = 0,
+    val stockQuantity: Int, // Current calculated stock
     val lowStockLimit: Int
 )
 
@@ -57,3 +77,20 @@ data class TransactionItem(
     val rate: Double,
     val amount: Double
 )
+
+@Entity(
+    tableName = "stock_tx",
+    foreignKeys = [
+        ForeignKey(entity = Item::class, parentColumns = ["id"], childColumns = ["itemId"], onDelete = ForeignKey.CASCADE)
+    ],
+    indices = [Index("itemId")]
+)
+data class StockTx(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val itemId: Long,
+    val quantity: Int, // Positive for Purchase, Negative for Sale
+    val type: String, // "SALE", "PURCHASE", "MANUAL_ADJUST"
+    val date: Long = System.currentTimeMillis(),
+    val refTransactionId: Long? = null // Link to Transaction if applicable
+)
+
